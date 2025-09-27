@@ -34,6 +34,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  padding: 25px;
+  
+  display:block;
   width: 100%;
   margin: 0;
   font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial,
@@ -50,8 +53,8 @@ a {
   color: inherit;
 }
 .container {
-  max-width: 1100px;
-  margin-inline: auto;
+  max-width: 11000px;
+  margin-inline:initial;
   padding: 24px;
 }
 .btn {
@@ -304,8 +307,9 @@ legend {
 input,
 textarea,
 select {
+  margin: 10px;
   padding: 0.7rem 0.85rem;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid var(--ring);
   background: var(--panel);
   color: var(--text);

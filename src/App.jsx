@@ -296,7 +296,7 @@ function App() {
                 <div>
                   <label>Phone</label>
                   <input name="phone" type="tel" pattern="^[0-9]{10}$" required placeholder="10-digit number"/>
-                  <div className="help">Digits only, no spaces.</div>
+                  {/* <div className="help">Digits only, no spaces.</div> */}
                 </div>
                 <div>
                   <label>Guests</label>
@@ -308,7 +308,7 @@ function App() {
               </div>
               <div>
                 <label>Message / Requests</label>
-                <textarea name="message" rows={4} placeholder="Allergies, celebration notes, etc."></textarea>
+                <input style={{borderColor:"black"}} name="message" rows={4} placeholder="Allergies, celebration notes, etc."></input>
               </div>
             </fieldset>
             <div style={{display:"flex",gap:10,alignItems:"center",marginTop:8}}>
